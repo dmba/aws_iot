@@ -1,4 +1,4 @@
-part of 'package:aws_iot/src/actions/actions.dart';
+part of aws_iot.actions;
 
 class CancelJob extends Action<Job> {
   CancelJob(this.jobId, this.force, this.data);

@@ -1,4 +1,4 @@
-part of 'package:aws_iot/src/exception/exception.dart';
+part of aws_iot.exception;
 
 abstract class AwsIotException implements Exception {
   const AwsIotException(this.statusCode, this.message);

@@ -1,4 +1,4 @@
-part of 'package:aws_iot/src/actions/actions.dart';
+part of aws_iot.actions;
 
 class AttachPolicy extends Action<bool> {
   AttachPolicy(this.policyName, this.data);

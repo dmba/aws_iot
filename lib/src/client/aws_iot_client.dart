@@ -1,5 +1,6 @@
 import 'package:aws_iot/src/actions/actions.dart';
-import 'package:aws_iot/src/data_types/data_types.dart';
+import 'package:aws_iot/src/data_type/data_type.dart';
+import 'package:aws_iot/src/model/model.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 

@@ -1,3 +1,5 @@
+library aws_iot.exception;
+
 part 'aws_iot_exception.dart';
 part 'internal_failure_exception.dart';
 part 'invalid_request_exception.dart';

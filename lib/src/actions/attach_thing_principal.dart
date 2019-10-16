@@ -1,4 +1,4 @@
-part of 'package:aws_iot/src/actions/actions.dart';
+part of aws_iot.actions;
 
 class AttachThingPrincipal extends Action<bool> {
   AttachThingPrincipal(this.thingName, this.principal);

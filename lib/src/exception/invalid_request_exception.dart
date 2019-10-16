@@ -1,4 +1,4 @@
-part of 'package:aws_iot/src/exception/exception.dart';
+part of aws_iot.exception;
 
 class InvalidRequestException extends AwsIotException {
   const InvalidRequestException()
