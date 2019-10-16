@@ -1,4 +1,6 @@
 analyzer:
+  exclude:
+    - lib/**/*.g.dart
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
@@ -6,8 +8,6 @@ analyzer:
     missing_required_param: error
     missing_return: warning
     todo: ignore
-  exclude:
-    - lib/**/**.g.dart
 
 linter:
   rules:

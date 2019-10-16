@@ -1,10 +1,10 @@
-import 'package:aws_iot/src/actions/model/model.dart';
-import 'package:aws_iot/src/data_types/data_types.dart';
+library aws_iot.actions;
+
+import 'package:aws_iot/src/data_type/data_type.dart';
 import 'package:aws_iot/src/exception/exception.dart';
+import 'package:aws_iot/src/model/model.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-
-export 'package:aws_iot/src/actions/model/model.dart';
 
 part 'accept_certificate_transfer.dart';
 part 'action.dart';

@@ -1,4 +1,4 @@
-part of 'package:aws_iot/src/actions/actions.dart';
+part of aws_iot.actions;
 
 // TODO(dmba): implement https://docs.aws.amazon.com/iot/latest/apireference/API_UpdateAccountAuditConfiguration.html
 class UpdateAccountAuditConfiguration extends Action<bool> {

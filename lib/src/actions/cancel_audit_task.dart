@@ -1,4 +1,4 @@
-part of 'package:aws_iot/src/actions/actions.dart';
+part of aws_iot.actions;
 
 class CancelAuditTask extends Action<bool> {
   CancelAuditTask(this.taskId);
